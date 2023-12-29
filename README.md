@@ -1,10 +1,11 @@
 # First Generation Pokemon Classification with a CNN
 Devyn Holland <br />
 
-**PURPOSE:** <br />
+## **PURPOSE:** <br />
 I developed a convolution neural network which can classify a first generation species of Pokemon. <br />
-**CODE WALKTHROUGH:** <br />
-1. Prepping the data: <br />
+
+## **CODE WALKTHROUGH:** <br />
+### 1. Prepping the data: <br />
 • split the data set into training and testing data via utilizing Google Drive folders (uploading all photos to colab was extensive) (I was required to use google colab as a requirement of the course I was taking) <br />
 • Within the training data - create y_training data in order to validate training results <br />
 • Move over random images from the training folder into the test folder <br />
@@ -13,7 +14,7 @@ I developed a convolution neural network which can classify a first generation s
 • View a single creature for understanding <br />
 • Incorporate data augmentations with ImageDataGenerator() - created various transformatios to exisitng training images to improve our CNN <br />
 • Break out into final training and testing data (validation data) with applied data augmentation <br />
-2. Creating the CNN: <br />
+### 2. Creating the CNN: <br />
 • Creating a convolutional neural network based off of the image size as well as the number of species of Pokemon within the datset <br />
 • Added 7 different layers <br />
 ∙ Conv2D/ ReLU: Converts all negative values to zero while keep the positive values. This layer learns and can pick up complex patterns in the image (complex feature extraction). Removing negative values reduces computational complexity and memory requirements during training. This also solves the vanishing gradient problem during back propagation. (Non-linear) <br />
