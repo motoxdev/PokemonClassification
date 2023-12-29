@@ -23,3 +23,6 @@ I developed a convolution neural network which can classify a first generation s
 ex: (batch_size, height, width, channels) -> (batch_size, height * width * channels) <br />
 ∙ Softmax: The output layer which transforms the input scores between a range of 0 and 1. This is the layer that estimates the probabilities of each Pokemon creature. (a probability distribution) <br />
 •  Model is compiled using cross-entropy loss function (commonly used with Softmax). Utilized Adam (Adaptive Moment Estimation) for the model's optimizer as it provides good generalization on datasets. This is due to Adam updating the model's weights during training to minimize the loss function which allows the CNN to make better predictions. Utilized 'categorical_crossentropy' as there are multiple species the model is trying to classify. <br />
+
+### **SOURCES** <br />
+https://www.kaggle.com/datasets/mikoajkolman/pokemon-images-first-generation17000-files
