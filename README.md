@@ -1,4 +1,4 @@
-# First Generation Pokemon Classification
+# First Generation Pokemon Classification with a CNN
 Devyn Holland <br />
 
 **PURPOSE:** <br />
