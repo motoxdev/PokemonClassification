@@ -3,7 +3,6 @@ Devyn Holland <br />
 
 **PURPOSE:** <br />
 I developed a convolution neural network which can classify a first generation species of Pokemon. <br />
-
 **CODE WALKTHROUGH:** <br />
 1. Prepping the data: <br />
 • split the data set into training and testing data via utilizing Google Drive folders (uploading all photos to colab was extensive) (I was required to use google colab as a requirement of the course I was taking) <br />
